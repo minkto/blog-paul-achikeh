@@ -1,0 +1,6 @@
+# giscus loads custom theme CSS cross-origin (crossorigin="anonymous"),
+# so the files must be served with a CORS header or the browser blocks them.
+[[headers]]
+  for = "/static/giscus/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
