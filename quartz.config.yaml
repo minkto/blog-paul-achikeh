@@ -258,7 +258,6 @@ plugins:
     options:
       includeAll: false
       includedProperties:
-        - description
         - tags
         - aliases
       excludedProperties: []
